@@ -1,3 +1,6 @@
 [submodule "Vendors/libwebp"]
 	path = Vendors/libwebp
 	url = https://chromium.googlesource.com/webm/libwebp
+[submodule "Vendors/AFNetworking"]
+	path = Vendors/AFNetworking
+	url = git@github.com:AFNetworking/AFNetworking.git
