@@ -4,3 +4,6 @@
 [submodule "Vendors/AFNetworking"]
 	path = Vendors/AFNetworking
 	url = git@github.com:AFNetworking/AFNetworking.git
+[submodule "Vendors/FLAnimatedImage"]
+	path = Vendors/FLAnimatedImage
+	url = git@github.com:Flipboard/FLAnimatedImage.git
