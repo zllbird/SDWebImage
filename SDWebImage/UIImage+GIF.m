@@ -1,13 +1,8 @@
-//
-//  UIImage+GIF.m
-//  LBGIFImage
-//
-//  Created by Laurin Brandner on 06.01.12.
-//  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
-//
+#ifdef SD_GIF
 
 #import "UIImage+GIF.h"
 #import <ImageIO/ImageIO.h>
+#import "FLAnimatedImage.h"
 
 @implementation UIImage (GIF)
 
@@ -156,3 +151,5 @@
 }
 
 @end
+
+#endif
