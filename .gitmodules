@@ -3,7 +3,7 @@
 	url = https://chromium.googlesource.com/webm/libwebp
 [submodule "Vendors/AFNetworking"]
 	path = Vendors/AFNetworking
-	url = git@github.com:AFNetworking/AFNetworking.git
+	url = https://github.com/AFNetworking/AFNetworking.git
 [submodule "Vendors/FLAnimatedImage"]
 	path = Vendors/FLAnimatedImage
-	url = git@github.com:Flipboard/FLAnimatedImage.git
+	url = https://github.com/Flipboard/FLAnimatedImage.git
