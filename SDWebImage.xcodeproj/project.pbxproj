@@ -700,7 +700,6 @@
 				A18A6CC8172DC28500419892 /* UIImage+GIF.h in Headers */,
 				53EDFB8B17623F7C00698166 /* UIImage+MultiFormat.h in Headers */,
 				ABBE71AA18C43B5800B75E91 /* UIImageView+HighlightedWebCache.h in Headers */,
-				53EDFB941762547D00698166 /* UIImage+WebP.h in Headers */,
 				AB615305192DA24600A2D8E9 /* UIView+WebCacheOperation.h in Headers */,
 				5D5B9144188EE8DD006D06BD /* NSData+ImageContentType.h in Headers */,
 			);
@@ -985,7 +984,6 @@
 				530E49ED16464C84002868E7 /* SDWebImageDownloaderOperation.m in Sources */,
 				A18A6CCA172DC28500419892 /* UIImage+GIF.m in Sources */,
 				53EDFB8D17623F7C00698166 /* UIImage+MultiFormat.m in Sources */,
-				53EDFB961762547D00698166 /* UIImage+WebP.m in Sources */,
 				AB615308192DA24600A2D8E9 /* UIView+WebCacheOperation.m in Sources */,
 				ABBE71AC18C43B6000B75E91 /* UIImageView+HighlightedWebCache.m in Sources */,
 				DAFAA6C219485CAA00581B9E /* SDWebImageCompat.m in Sources */,
