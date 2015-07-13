@@ -37,6 +37,7 @@
         
         _objects = [NSArray arrayWithObjects:
                     @"http://www.httpwatch.com/httpgallery/authentication/authenticatedimage/default.aspx?0.35786508303135633",     // requires HTTP auth, used to demo the NTLM auth
+                    @"https://raw.githubusercontent.com/liyong03/YLGIFImage/master/YLGIFImageDemo/YLGIFImageDemo/joy.gif",
                     @"http://assets.sbnation.com/assets/2512203/dogflops.gif",
                     @"http://www.ioncannon.net/wp-content/uploads/2011/06/test2.webp",
                     @"http://www.ioncannon.net/wp-content/uploads/2011/06/test9.webp",
