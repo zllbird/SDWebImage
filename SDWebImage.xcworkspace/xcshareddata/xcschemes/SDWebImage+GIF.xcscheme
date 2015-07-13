@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "4389D6EE1B545EE0009F647B"
-               BuildableName = "libSDWebImage+WebP copy.a"
+               BuildableName = "libSDWebImage+GIF.a"
                BlueprintName = "SDWebImage+GIF"
                ReferencedContainer = "container:SDWebImage.xcodeproj">
             </BuildableReference>
@@ -43,7 +43,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "4389D6EE1B545EE0009F647B"
-            BuildableName = "libSDWebImage+WebP copy.a"
+            BuildableName = "libSDWebImage+GIF.a"
             BlueprintName = "SDWebImage+GIF"
             ReferencedContainer = "container:SDWebImage.xcodeproj">
          </BuildableReference>
@@ -61,7 +61,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "4389D6EE1B545EE0009F647B"
-            BuildableName = "libSDWebImage+WebP copy.a"
+            BuildableName = "libSDWebImage+GIF.a"
             BlueprintName = "SDWebImage+GIF"
             ReferencedContainer = "container:SDWebImage.xcodeproj">
          </BuildableReference>

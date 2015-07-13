@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		3E75A9861742DBE700DA412D /* CustomPathImages in Resources */ = {isa = PBXBuildFile; fileRef = 3E75A9851742DBE700DA412D /* CustomPathImages */; };
+		4332F74B1B546A6800ABF6C2 /* libSDWebImage+WebP.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DA248D761954841D00390AB0 /* libSDWebImage+WebP.a */; };
+		4389D77A1B5463BA009F647B /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4389D7791B5463BA009F647B /* QuartzCore.framework */; };
+		4389D77C1B5463CA009F647B /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4389D77B1B5463CA009F647B /* MobileCoreServices.framework */; };
 		531041C1157EAC8F00BBABC3 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 537612E6155ABA44005750A4 /* ImageIO.framework */; };
 		5376129A155AB74D005750A4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53761299155AB74D005750A4 /* UIKit.framework */; };
 		5376129C155AB74D005750A4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5376129B155AB74D005750A4 /* Foundation.framework */; };
@@ -22,10 +25,23 @@
 		53A2B50E155B155A00B12423 /* placeholder@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 53A2B50C155B155A00B12423 /* placeholder@2x.png */; };
 		53EEC18916484553007601E1 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 53EEC18816484553007601E1 /* Default-568h@2x.png */; };
 		DA248D44195470FD00390AB0 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 537612E3155ABA3C005750A4 /* MapKit.framework */; };
-		DA248D79195484A500390AB0 /* libSDWebImage+WebP.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DA248D761954841D00390AB0 /* libSDWebImage+WebP.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		4389D7741B546365009F647B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DA248D6C1954841D00390AB0 /* SDWebImage.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4A2CADFF1AB4BB5300B6BC39;
+			remoteInfo = WebImage;
+		};
+		4389D7761B546365009F647B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DA248D6C1954841D00390AB0 /* SDWebImage.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4389D7641B545EE0009F647B;
+			remoteInfo = "SDWebImage+GIF";
+		};
 		DA248D731954841D00390AB0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = DA248D6C1954841D00390AB0 /* SDWebImage.xcodeproj */;
@@ -51,6 +67,8 @@
 
 /* Begin PBXFileReference section */
 		3E75A9851742DBE700DA412D /* CustomPathImages */ = {isa = PBXFileReference; lastKnownFileType = folder; path = CustomPathImages; sourceTree = SOURCE_ROOT; };
+		4389D7791B5463BA009F647B /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		4389D77B1B5463CA009F647B /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		53761295155AB74D005750A4 /* SDWebImage Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SDWebImage Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		53761299155AB74D005750A4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		5376129B155AB74D005750A4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -79,7 +97,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DA248D79195484A500390AB0 /* libSDWebImage+WebP.a in Frameworks */,
+				4332F74B1B546A6800ABF6C2 /* libSDWebImage+WebP.a in Frameworks */,
+				4389D77C1B5463CA009F647B /* MobileCoreServices.framework in Frameworks */,
+				4389D77A1B5463BA009F647B /* QuartzCore.framework in Frameworks */,
 				DA248D44195470FD00390AB0 /* MapKit.framework in Frameworks */,
 				531041C1157EAC8F00BBABC3 /* ImageIO.framework in Frameworks */,
 				5376129A155AB74D005750A4 /* UIKit.framework in Frameworks */,
@@ -112,6 +132,8 @@
 		53761298155AB74D005750A4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				4389D77B1B5463CA009F647B /* MobileCoreServices.framework */,
+				4389D7791B5463BA009F647B /* QuartzCore.framework */,
 				537612E6155ABA44005750A4 /* ImageIO.framework */,
 				537612E3155ABA3C005750A4 /* MapKit.framework */,
 				53761299155AB74D005750A4 /* UIKit.framework */,
@@ -157,6 +179,8 @@
 				DA248D741954841D00390AB0 /* libSDWebImage.a */,
 				DA248D761954841D00390AB0 /* libSDWebImage+WebP.a */,
 				DA248D781954841D00390AB0 /* libSDWebImage+MKAnnotation.a */,
+				4389D7751B546365009F647B /* WebImage.framework */,
+				4389D7771B546365009F647B /* libSDWebImage+GIF.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -214,6 +238,20 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
+		4389D7751B546365009F647B /* WebImage.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = WebImage.framework;
+			remoteRef = 4389D7741B546365009F647B /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		4389D7771B546365009F647B /* libSDWebImage+GIF.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libSDWebImage+GIF.a";
+			remoteRef = 4389D7761B546365009F647B /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
 		DA248D741954841D00390AB0 /* libSDWebImage.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
