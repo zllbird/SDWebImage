@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		3E75A9861742DBE700DA412D /* CustomPathImages in Resources */ = {isa = PBXBuildFile; fileRef = 3E75A9851742DBE700DA412D /* CustomPathImages */; };
-		4332F74B1B546A6800ABF6C2 /* libSDWebImage+WebP.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DA248D761954841D00390AB0 /* libSDWebImage+WebP.a */; };
 		4389D77A1B5463BA009F647B /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4389D7791B5463BA009F647B /* QuartzCore.framework */; };
 		4389D77C1B5463CA009F647B /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4389D77B1B5463CA009F647B /* MobileCoreServices.framework */; };
 		531041C1157EAC8F00BBABC3 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 537612E6155ABA44005750A4 /* ImageIO.framework */; };
@@ -25,6 +24,7 @@
 		53A2B50E155B155A00B12423 /* placeholder@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 53A2B50C155B155A00B12423 /* placeholder@2x.png */; };
 		53EEC18916484553007601E1 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 53EEC18816484553007601E1 /* Default-568h@2x.png */; };
 		DA248D44195470FD00390AB0 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 537612E3155ABA3C005750A4 /* MapKit.framework */; };
+		DA4D3C6F1B55303A00EC8389 /* libSDWebImage+All.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DA4D3C6E1B55303500EC8389 /* libSDWebImage+All.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +63,20 @@
 			remoteGlobalIDString = 531041E0157EAFA400BBABC3;
 			remoteInfo = "SDWebImage+MKAnnotation";
 		};
+		DA4D3C6D1B55303500EC8389 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DA248D6C1954841D00390AB0 /* SDWebImage.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = DA4D3C1B1B552F4100EC8389;
+			remoteInfo = "SDWebImage+All";
+		};
+		DAE75C211B55307F0044DE5E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DA248D6C1954841D00390AB0 /* SDWebImage.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = DA4D3BEF1B552F4100EC8389;
+			remoteInfo = "SDWebImage+All";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -97,7 +111,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4332F74B1B546A6800ABF6C2 /* libSDWebImage+WebP.a in Frameworks */,
+				DA4D3C6F1B55303A00EC8389 /* libSDWebImage+All.a in Frameworks */,
 				4389D77C1B5463CA009F647B /* MobileCoreServices.framework in Frameworks */,
 				4389D77A1B5463BA009F647B /* QuartzCore.framework in Frameworks */,
 				DA248D44195470FD00390AB0 /* MapKit.framework in Frameworks */,
@@ -178,9 +192,10 @@
 			children = (
 				DA248D741954841D00390AB0 /* libSDWebImage.a */,
 				DA248D761954841D00390AB0 /* libSDWebImage+WebP.a */,
+				4389D7771B546365009F647B /* libSDWebImage+GIF.a */,
 				DA248D781954841D00390AB0 /* libSDWebImage+MKAnnotation.a */,
 				4389D7751B546365009F647B /* WebImage.framework */,
-				4389D7771B546365009F647B /* libSDWebImage+GIF.a */,
+				DA4D3C6E1B55303500EC8389 /* libSDWebImage+All.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -199,6 +214,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				DAE75C221B55307F0044DE5E /* PBXTargetDependency */,
 			);
 			name = "SDWebImage Demo";
 			productName = "SDWebImage Demo";
@@ -273,6 +289,13 @@
 			remoteRef = DA248D771954841D00390AB0 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
+		DA4D3C6E1B55303500EC8389 /* libSDWebImage+All.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libSDWebImage+All.a";
+			remoteRef = DA4D3C6D1B55303500EC8389 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
 /* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
@@ -304,6 +327,14 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DAE75C221B55307F0044DE5E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "SDWebImage+All";
+			targetProxy = DAE75C211B55307F0044DE5E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		537612B1155AB74D005750A4 /* MasterViewController.xib */ = {
