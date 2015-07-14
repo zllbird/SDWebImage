@@ -25,6 +25,8 @@
 		53EEC18916484553007601E1 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 53EEC18816484553007601E1 /* Default-568h@2x.png */; };
 		DA248D44195470FD00390AB0 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 537612E3155ABA3C005750A4 /* MapKit.framework */; };
 		DA4D3C6F1B55303A00EC8389 /* libSDWebImage+All.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DA4D3C6E1B55303500EC8389 /* libSDWebImage+All.a */; };
+		DAE75CB41B5532350044DE5E /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAE75CB31B5532350044DE5E /* SystemConfiguration.framework */; };
+		DAE75CB61B5532640044DE5E /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAE75CB51B5532640044DE5E /* Security.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -104,6 +106,8 @@
 		53A2B50C155B155A00B12423 /* placeholder@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "placeholder@2x.png"; sourceTree = "<group>"; };
 		53EEC18816484553007601E1 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "../Default-568h@2x.png"; sourceTree = "<group>"; };
 		DA248D6C1954841D00390AB0 /* SDWebImage.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SDWebImage.xcodeproj; path = ../SDWebImage.xcodeproj; sourceTree = "<group>"; };
+		DAE75CB31B5532350044DE5E /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		DAE75CB51B5532640044DE5E /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +116,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				DA4D3C6F1B55303A00EC8389 /* libSDWebImage+All.a in Frameworks */,
+				DAE75CB61B5532640044DE5E /* Security.framework in Frameworks */,
+				DAE75CB41B5532350044DE5E /* SystemConfiguration.framework in Frameworks */,
 				4389D77C1B5463CA009F647B /* MobileCoreServices.framework in Frameworks */,
 				4389D77A1B5463BA009F647B /* QuartzCore.framework in Frameworks */,
 				DA248D44195470FD00390AB0 /* MapKit.framework in Frameworks */,
@@ -146,6 +152,8 @@
 		53761298155AB74D005750A4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				DAE75CB51B5532640044DE5E /* Security.framework */,
+				DAE75CB31B5532350044DE5E /* SystemConfiguration.framework */,
 				4389D77B1B5463CA009F647B /* MobileCoreServices.framework */,
 				4389D7791B5463BA009F647B /* QuartzCore.framework */,
 				537612E6155ABA44005750A4 /* ImageIO.framework */,
